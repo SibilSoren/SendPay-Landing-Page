@@ -1,1 +1,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logoText {
+  color: #6c63ff;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-top: 12px;
+}
+
+.navOptions h6 {
+  height: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.1s ease-out;
+}
+
+.navOptions h6:hover {
+  border-bottom: 3px solid #6c63ff;
+}
+
+.navButtons h6 {
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: all 0.1s ease-out;
+}
+
+.register {
+  text-align: center;
+  background-color: #6c63ff;
+  height: 50px;
+  border-radius: 40px;
+  color: white;
+  padding-top: 13px;
+}
+
+.signin {
+  text-align: center;
+  border: 2px solid #6c63ff;
+
+  height: 50px;
+  border-radius: 40px;
+  color: black;
+  padding-top: 13px;
+  transition: all 200ms ease-out;
+}
+
+.signin:hover {
+  color: white;
+  background-color: #6c63ff;
+}
+
+.register:hover {
+  border: 2px solid #6c63ff;
+  color: black;
+  background-color: white;
+}
+
+.navbar-nav a {
+  font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.8);
+  transition: all 100ms ease-out;
+}
