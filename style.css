@@ -84,14 +84,32 @@
 }
 
 .featureBody {
+  margin-top: 35px;
   text-align: center;
 }
 
 .featureBody .line {
+  margin-top: 25px;
   margin: auto;
 }
 
 .feature {
-  width: 300px;
-  height: 200px;
+  width: 200px;
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+.feature h4 {
+  font-weight: 600;
+  font-size: large;
+}
+
+.section-3 {
+  margin-top: 50px;
+}
+
+.headerBodyButton h5 {
+  font-weight: 800;
+  color: #6c63ff;
+  cursor: pointer;
 }
