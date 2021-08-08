@@ -70,3 +70,28 @@
   color: rgba(0, 0, 0, 0.8);
   transition: all 100ms ease-out;
 }
+
+.line {
+  width: 80px;
+  height: 3px;
+  background-color: #6c63ff;
+}
+
+.heroImage {
+  background-image: url("./assets/images/heroImg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.featureBody {
+  text-align: center;
+}
+
+.featureBody .line {
+  margin: auto;
+}
+
+.feature {
+  width: 300px;
+  height: 200px;
+}
