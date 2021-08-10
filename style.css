@@ -151,3 +151,7 @@
 .section2 h5 {
   cursor: pointer;
 }
+
+header {
+  opacity: 0.9;
+}
