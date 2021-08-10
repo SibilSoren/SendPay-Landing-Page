@@ -113,3 +113,41 @@
   color: #6c63ff;
   cursor: pointer;
 }
+
+.footerBg {
+  background-color: #6c63ff;
+  height: 400px;
+}
+.end {
+  margin: 0;
+  text-align: center;
+  background-color: #6c63ff;
+  color: white;
+}
+
+.content-wrapper {
+  height: 100%;
+  color: white;
+}
+
+.content-wrapper h2 {
+  font-weight: 600;
+}
+
+.section4 {
+  background-color: white;
+  color: #6c63ff;
+  border-radius: 10px;
+}
+
+.section4 h5 {
+  cursor: pointer;
+}
+
+.section3 h5 {
+  cursor: pointer;
+}
+
+.section2 h5 {
+  cursor: pointer;
+}
